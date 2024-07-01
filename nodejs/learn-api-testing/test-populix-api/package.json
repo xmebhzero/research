@@ -1,0 +1,24 @@
+{
+  "name": "test-populix-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js",
+    "test:bail": "mocha test/index.js --bail",
+    "test:report": "mocha test/index.js --reporter mochawesome",
+    "lint": "eslint \"{data,helpers,test}/**/*.js\" --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.45.0",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mochawesome": "^7.1.3"
+  }
+}

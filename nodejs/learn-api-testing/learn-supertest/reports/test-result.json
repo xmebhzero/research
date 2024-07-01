@@ -1,0 +1,88 @@
+🚀 ~ it ~ globalData.token: 06f1f94d615509c
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-07-21T06:55:19.191Z",
+    "end": "2023-07-21T06:55:22.965Z",
+    "duration": 3774
+  },
+  "tests": [
+    {
+      "title": "Should login successfully",
+      "fullTitle": "Restful Booker API Tests Should login successfully",
+      "file": "/home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/test/index.js",
+      "duration": 1298,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Should succesfully create a new booking",
+      "fullTitle": "Restful Booker API Tests Should succesfully create a new booking",
+      "file": "/home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/test/index.js",
+      "duration": 1179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Should successfully update previous booking",
+      "fullTitle": "Restful Booker API Tests Should successfully update previous booking",
+      "file": "/home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/test/index.js",
+      "duration": 1284,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 200 to equal 300",
+        "showDiff": true,
+        "actual": "200",
+        "expected": "300",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 200 to equal 300\n    at Test.<anonymous> (test/booking.test.js:36:38)\n    at Test.assert (node_modules/supertest/lib/test.js:172:8)\n    at localAssert (node_modules/supertest/lib/test.js:120:14)\n    at /home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/node_modules/supertest/lib/test.js:125:7\n    at Test.Request.callback (node_modules/superagent/lib/node/index.js:857:12)\n    at /home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/node_modules/superagent/lib/node/index.js:1070:18\n    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/parsers/json.js:21:7)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+        "uncaught": true
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Should successfully update previous booking",
+      "fullTitle": "Restful Booker API Tests Should successfully update previous booking",
+      "file": "/home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/test/index.js",
+      "duration": 1284,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 200 to equal 300",
+        "showDiff": true,
+        "actual": "200",
+        "expected": "300",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 200 to equal 300\n    at Test.<anonymous> (test/booking.test.js:36:38)\n    at Test.assert (node_modules/supertest/lib/test.js:172:8)\n    at localAssert (node_modules/supertest/lib/test.js:120:14)\n    at /home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/node_modules/supertest/lib/test.js:125:7\n    at Test.Request.callback (node_modules/superagent/lib/node/index.js:857:12)\n    at /home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/node_modules/superagent/lib/node/index.js:1070:18\n    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/parsers/json.js:21:7)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+        "uncaught": true
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "Should login successfully",
+      "fullTitle": "Restful Booker API Tests Should login successfully",
+      "file": "/home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/test/index.js",
+      "duration": 1298,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Should succesfully create a new booking",
+      "fullTitle": "Restful Booker API Tests Should succesfully create a new booking",
+      "file": "/home/xmebhzero/research/nodejs/learn-api-testing/learn-supertest/test/index.js",
+      "duration": 1179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}

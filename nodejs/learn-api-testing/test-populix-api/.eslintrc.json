@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": false,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "semi": "error",
+    "semi-spacing": "error",
+    "no-undef": "error",
+    "quotes": ["error", "single"],
+    "eqeqeq": "warn",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-unused-expressions": ["error", { "allowTernary": true }],
+    "no-constant-condition": "warn",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "req|res|next|__" }]
+  }
+}

@@ -1,0 +1,71 @@
+function main() {
+  const criteriaKeysToCheck = [
+    "MediaPreference",
+    "Gender",
+    "Age",
+    "JobStatus",
+    "Domicile",
+    "Occupation",
+    "HighestEducation",
+    "NumberOfChildren",
+    "MonthlyIncome",
+    "MonthlyExpenses",
+    "MonthlyPersonalExpenses",
+    "EWallet",
+    "PhoneBrand",
+    "HouseholdIncome",
+    "Smoking",
+    "SocialMedia",
+    "DigitalAppsUsed",
+    "DigitalAppsMostUsed",
+    "EcommercePurchased",
+    "EcommerceMostPurchased",
+    "CookingFuel",
+    "DrinkingWater",
+    "InternetProvider",
+    "UseFintech",
+    "DigitalBanking",
+    "InputNumberTest1",
+    "CarNumber",
+    "gameUsage",
+    "test-max-mandatory",
+  ];
+
+  const mandatoryKeysWithExpiredIn = {
+    MediaPreference: { expiredIn: "2024-01-20 10:09:58" },
+    Gender: { expiredIn: '2024-02-01 10:09:58' },
+    Age: { expiredIn: null },
+    JobStatus: { expiredIn: "2024-02-01 10:09:58" },
+    Domicile: { expiredIn: null },
+    Occupation: { expiredIn: null },
+    HighestEducation: { expiredIn: '2024-02-01 10:09:58' },
+    NumberOfChildren: { expiredIn: null },
+    MonthlyIncome: { expiredIn: null },
+    MonthlyExpenses: { expiredIn: null },
+    MonthlyPersonalExpenses: { expiredIn: null },
+    EWallet: { expiredIn: '2024-02-01 10:09:58' },
+    PhoneBrand: { expiredIn: null },
+    HouseholdIncome: { expiredIn: "2024-02-01 10:09:58" },
+    Smoking: { expiredIn: null },
+    SocialMedia: { expiredIn: null },
+    DigitalAppsUsed: { expiredIn: null },
+    DigitalAppsMostUsed: { expiredIn: null },
+    EcommercePurchased: { expiredIn: '2024-02-01 10:09:58' },
+    EcommerceMostPurchased: { expiredIn: null },
+    CookingFuel: { expiredIn: null },
+    DrinkingWater: { expiredIn: null },
+    InternetProvider: { expiredIn: "2024-02-01 10:09:58" },
+    UseFintech: { expiredIn: null },
+    DigitalBanking: { expiredIn: null },
+    InputNumberTest1: { expiredIn: null },
+    CarNumber: { expiredIn: null },
+    gameUsage: { expiredIn: null },
+    "test-max-mandatory": { expiredIn: null },
+  };
+
+  // let missingCriteriaKeys = [];
+  // for (const criteriaKeyToCheck of criteriaKeysToCheck) {
+  // }
+}
+
+main();
