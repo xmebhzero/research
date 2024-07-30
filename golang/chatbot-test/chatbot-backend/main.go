@@ -75,7 +75,7 @@ func relayMessageToAIService(wsConnection *websocket.Conn, msg Message) {
 		aiResponse := getMessageFromAIService(msg.Content)
 
 		// Tell the sender to stop loading indicator
-		wsConnection.WriteJSON(Message{IsLoading: true})
+		wsConnection.WriteJSON(Message{IsLoading: false})
 
 		// Send the response from AI Service
 		aiMessage := Message{Username: "Chatbot", Content: aiResponse.Message}
