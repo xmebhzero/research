@@ -1,3 +1,4 @@
 go 1.21.5
 
 use ./golang/belajar-golang-dasar
+use ./golang/chatbot-test/chatbot-backend
