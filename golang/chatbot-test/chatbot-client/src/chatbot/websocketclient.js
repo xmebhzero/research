@@ -14,6 +14,7 @@ const WebSocketClient = () => {
   const [username, setUsername] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
   const ws = useRef(null);
 
   useEffect(() => {
@@ -111,6 +112,8 @@ const WebSocketClient = () => {
           )}
         </>
       ))}
+
+      {/* { isLoading && <CircularProgress />} */}
     </>
   );
 };
