@@ -58,16 +58,6 @@ func handleConnections(w http.ResponseWriter, r *http.Request) {
 
 		// Get AI Response and send it to the sender
 		relayMessageToAIService(ws, msg)
-
-		// // Get AI Response and send it to the sender
-		// aiResponse := relayMessageToAIService(msg.Content)
-		// aiMessage := Message{Username: "Chatbot", Content: aiResponse.Message}
-		// err = ws.WriteJSON(aiMessage)
-		// if err != nil {
-		// 	log.Printf("=== Error sending AI message to sender: %v", err)
-		// 	ws.Close()
-		// 	delete(clients, ws)
-		// }
 	}
 }
 
